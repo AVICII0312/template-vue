@@ -1,0 +1,19 @@
+{
+  "name": "template-vue",
+  "version": "1.0.0",
+  "description": "这是一个vue组件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AVICII0312/template-vue.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AVICII0312/template-vue/issues"
+  },
+  "homepage": "https://github.com/AVICII0312/template-vue#readme"
+}
