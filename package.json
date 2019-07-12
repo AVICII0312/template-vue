@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/AVICII0312/template-vue/issues"
   },
-  "homepage": "https://github.com/AVICII0312/template-vue#readme"
+  "homepage": "https://github.com/AVICII0312/template-vue#readme",
+  "dependencies": {
+    "vue": "^2.6.10"
+  }
 }
