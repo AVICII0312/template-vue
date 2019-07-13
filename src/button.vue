@@ -31,7 +31,6 @@ export default {
   .g-button {
     font-size: var(--font-size);
     height: var(--button-height);
-    margin: .5em;
     padding: 0 1.1em;
     border-radius: var(--border-radius);
     border: 1px solid var(--border-color);
