@@ -5,6 +5,7 @@
     <g-icon name="loading" class="loading icon" v-if="loading"></g-icon>
     <div class="content">
     <slot></slot></div>
+    
   </button>
 </template>
 <script>
