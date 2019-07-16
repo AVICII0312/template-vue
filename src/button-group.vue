@@ -12,10 +12,11 @@ export default {
                 console.warn(`g-button-group的子元素应该全是 g-button,但是你写的是 ${name}`)
             }
         }
-    }
+    },
+    name:'template-buttongroup'
 };
 </script>
-<style lang="scss">
+<style lang="scss" scoped>
 .g-button-group {
   display: inline-flex;
   vertical-align: middle;
