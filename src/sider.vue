@@ -5,7 +5,7 @@
 </template>
 <script>
 export default {
-    
+    name:'Template-Sider'
 }
 </script>
 
@@ -14,3 +14,4 @@ export default {
         
     }
 </style>
+name:'template-sider'

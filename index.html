@@ -25,7 +25,7 @@
             --border-color-hover: #666;
         }
         .demo{
-            border: 1px solid red;
+            border: 1px solid #666;
             min-height: 50px;
         }
     </style>
@@ -35,10 +35,15 @@
 
 <body>
     <div id="app">
-        <g-layout>
-            <g-header class="demo"></g-header>
-            <g-content class="demo"></g-content>
-            <g-footer class="demo"></g-footer>
+        <g-layout style="height:100vh;">
+            <g-header class="demo">H</g-header>
+            <g-content class="demo">
+                <g-layout>
+                    <g-sider>s</g-sider>
+                    <g-content>c</g-content>
+                </g-layout>
+            </g-content>
+            <g-footer class="demo">F</g-footer>
         </g-layout>
     </div>
     <script src="./src/app.js"></script>
