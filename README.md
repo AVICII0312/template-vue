@@ -1,6 +1,9 @@
 # Template-strom
 
 [![Build Status](https://travis-ci.org/AVICII0312/template-vue.svg?branch=master)](https://travis-ci.org/AVICII0312/template-vue)
+[![npm package](https://img.shields.io/npm/v/template-strom.svg?style=flat-square)](https://www.npmjs.com/package/template-strom)
+![](https://img.shields.io/badge/language-JavaScript-yellow.svg)
+![](https://img.shields.io/badge/license-MIT-000000.svg)
 
 Template-strom UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 端和移动端使用。
 
