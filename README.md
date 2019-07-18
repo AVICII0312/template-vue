@@ -14,7 +14,7 @@ Template-strom UI 是一个好用的 UI 框架，提供了一些常用组件，�
 Template 就是轮子，这是我在学习 Vue 的过程中尝试写的一个 UI 框架（造的轮子），希望对你有用。
 
 ## 文档
-[官方文档](https://github.com/AVICII0312/template-vue)
+[官方文档](https://avicii0312.github.io/template-vue/)
 ## 提问
 [Issues](https://github.com/AVICII0312/template-vue/issues)
 ## 联系方式
