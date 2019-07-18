@@ -1,50 +1,20 @@
-# 一个VUE组件
+# Template-strom
+
 [![Build Status](https://travis-ci.org/AVICII0312/template-vue.svg?branch=master)](https://travis-ci.org/AVICII0312/template-vue)
-## 介绍
-在学习vue框架过程中写的一个UI框架
-## 开始使用
-1. 添加CSS样式
-  在使用本框架前,请在CSS中开启border-box
-  ```
-  *,*::after,*::before{border-sizing:border-box;}
-  ```
-  支持IE8及以上浏览器
 
-  还需要设置默认颜色等变量
-  ```
-  html {
-            margin: .5em;
-            --button-height: 32px;
-            --font-size: 14px;
-            --button-bg: white;
-            --button-active-bg: #eee;
-            --border-radius: 4px;
-            --color: #333;
-            --border-color: #999;
-            --border-color-hover: #666;
-        }
-  ```
-IE15及以上浏览器支持此样式
-2. 安装组件
-```
-npm i --save template-vue-1-1
-```
-3. 引入组件
-```
-import {Buttongroup,Button,Icon} from 'template-vue-1-1'
-import 'template-vue-1-1/dist/index.css'
+Template-strom UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 端和移动端使用。
 
-export default{
-  name:'app',
-  components:{
-    HelloWorld,
-    'g-button':Button,
-    'g-icon':Icon
-  }
-}
-```
+组件：按钮、输入框、网格、布局
+
+## Why Template
+
+Template 就是轮子，这是我在学习 Vue 的过程中尝试写的一个 UI 框架（造的轮子），希望对你有用。
+
 ## 文档
+[官方文档](https://github.com/AVICII0312/template-vue)
 ## 提问
-## 变更记录
+[Issues](https://github.com/AVICII0312/template-vue/issues)
 ## 联系方式
+邮箱：Avicii0312@163.com
 ## 贡献代码
+[Pull request](https://github.com/AVICII0312/template-vue/pulls)
