@@ -1,7 +1,5 @@
 # Template-strom
 
-[![Build Status](https://travis-ci.org/AVICII0312/template-vue.svg?branch=master)](https://travis-ci.org/AVICII0312/template-vue)
-
 Template-strom UI 是一个好用的 UI 框架，提供了一些常用组件，适合 PC 端和移动端使用。
 
 组件：按钮、输入框、网格、布局

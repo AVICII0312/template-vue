@@ -1,12 +1,12 @@
 <template>
     <div>
-        <g-button>默认按钮</g-button>
-        <g-button icon="setting">设置</g-button>
-        <g-button icon="zan">点赞</g-button>
-        <g-button icon="download" icon-position="right">下载</g-button>
-        <g-button :loading="true">登录中</g-button>
+        <g-button-group>
+            <g-button icon="left" icon-position="left">上一页</g-button>
+            <g-button icon="right" icon-position="right">下一页</g-button>
+        </g-button-group>
     </div>
 </template>
+
 <script>
     import Button from '../../../src/button'
     import ButtonGroup from '../../../src/button-group'

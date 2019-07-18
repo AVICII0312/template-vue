@@ -11,16 +11,16 @@ title: 快速上手
 ```
 IE 8 及以上浏览器支持此样式。
 
-## 引入 wheels-ada
+## 引入 Template-strom
 
 ``` js
-import { Button } from 'wheels-ada'
-import 'wheels-ada/dist/index.css'
+import { Button } from 'template-strom'
+import 'template-strom/dist/index.css'
 
 export default {
     name: 'app',
     components: {
-        'w-button': Button
+        'g-button': Button
     }
 }
 ```

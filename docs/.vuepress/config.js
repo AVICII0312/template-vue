@@ -27,10 +27,10 @@ module.exports = {
         title: '入门',
         collapsable: false,
         children: [
-          '/install/',
-          '/get-started/',
+            '/install/',
+            '/get_started/',
         ]
-      },
+    },
       {
         title: '组件',
         collapsable: false,
@@ -40,7 +40,7 @@ module.exports = {
           '/components/grid',
           '/components/layout',         
         ]
-      }
+      },
     ]
   }
 }
