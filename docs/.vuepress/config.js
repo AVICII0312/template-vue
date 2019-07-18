@@ -1,26 +1,46 @@
 module.exports = {
-    title: '简易UI',
-    description: '一个好用得UI框架',
-    themeConfig: {
-    sidebar: [
-  
-        '/',
-        
-        {
-          title:'入门',
-          children:['/install/',
-          '/get_started/',]
-        },
-
-        {
-          title: '组件',
-          children: [ '/components/button' ]
-        },
-      ],
-      nav: [
-        { text: '主页', link: '/' },
-        { text: '文档', link: '/guide/' },
-        { text: '交流', link: 'https://google.com' },
-      ]
-    }
+  base: '/template-vue/',
+  title: 'Template-strom',
+  description: '一个简易的UI框架',
+  themeConfig: {
+    nav: [{
+        text: '主页',
+        link: '/'
+      },
+      {
+        text: '欢迎 Star',
+        link: 'https://github.com/AVICII0312/template-vue'
+      },
+      {
+        text: 'Github',
+        link: 'https://github.com/AVICII0312/'
+      }
+    ],
+    sidebar: [{
+        title: '介绍',
+        collapsable: false,
+        children: [
+          '/introduce/',
+        ]
+      },
+      {
+        title: '入门',
+        collapsable: false,
+        children: [
+          '/install/',
+          '/get-started/',
+        ]
+      },
+      {
+        title: '组件',
+        collapsable: false,
+        children: [
+          '/components/button',
+          '/components/input',         
+          '/components/grid',
+          '/components/layout',         
+        ]
+      }
+    ]
   }
+}

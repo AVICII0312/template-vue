@@ -1,2 +1,14 @@
-# 简易UI 官网
-简易UI 是一个简单好用得UI框架 提供了 button、input、网格系统、布局系统等常用组件，适用于移动端和pc端
+---
+home: true
+heroImage: /template.jpg
+actionText: get start →
+actionLink: /introduce/
+features:
+- title: 简明优先
+  details: 极简化设计，注重内部功能实现。
+- title: Vue 驱动
+  details: 一款基于 Vue2.0 的 UI 库。
+- title: 持续集成
+  details: 自动化测试，保证每个组件质量。
+footer: MIT Licensed | Copyright © 2019 Shi Baowen
+---
